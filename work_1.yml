@@ -1,8 +1,8 @@
-name: Work 1
+name: Work 1 
 on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      name: Haz un print
+    - name: Print Something
       run: echo "Hola Hola"
